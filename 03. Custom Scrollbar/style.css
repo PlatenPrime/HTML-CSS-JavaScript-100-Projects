@@ -20,11 +20,11 @@ body {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  background-color: transparent;
-  width: 10px;
+  width: 10px; /* Ширина скроллбара */
+  background-color: transparent; /* Полностью невидимый скроллбар */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(#21d4fd, #b721ff);
-  border-radius: 100px;
+  background: linear-gradient(#21d4fd, #b721ff); /* Градиентный фон только на thumb */
+  border-radius: 100px; /* Скругленные края */
 }
